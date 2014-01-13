@@ -89,8 +89,8 @@
 +    awful.key({ modkey }, "p", function() menubar.show() end),
 +
 +    -- Own shortcuts
-+    awful.key({ modkey         }, "Prior", function () awful.util.spawn("amixer set Master 10%+") end),
-+    awful.key({ modkey         }, "Next", function () awful.util.spawn("amixer set Master 10%-")  end),
++    awful.key({ modkey         }, "Prior", function () awful.util.spawn("amixer set Master 8%+") end),
++    awful.key({ modkey         }, "Next", function () awful.util.spawn("amixer set Master 8%-")  end),
 +    awful.key({ "Ctrl", "Mod1" }, "t", function () awful.util.spawn("konsole")                    end),
 +    awful.key({ "Ctrl", "Mod1" }, "l", function () awful.util.spawn("slock")                      end),
 +    awful.key({ "Ctrl", "Mod1" }, "k", function () os.execute("~/bin/en-cz-layout")               end),
