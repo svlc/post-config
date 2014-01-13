@@ -14,7 +14,7 @@ packages
 * wpa_supplicant
 * firefox flashplugin kdebase-konqueror kwallet alsa-utils
 * krusader kdebase-dolphin kdegraphics-gwenview evince kdebase-konsole
-* vlc mplayer gimp
+* vlc mplayer gimp libreoffice
 * freerapid
 
 file-configuration
