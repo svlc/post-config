@@ -1,0 +1,3 @@
+Include Pattern: http://www.youtube.com/watch?v=*
+Redirect To: http://www.youtube.com/watch?html5=1&v=$1
+Pattern Type: Wildcard 
