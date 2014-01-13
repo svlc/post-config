@@ -33,6 +33,7 @@ programs
 * browser.tabs.animate:false
 * keyword.enabled:false
 * browser.search.suggest.enabled:false
+* browser.backspace_action:0
 
 #### plugins
 * betterprivacy, facebook disconnect, firesizer, flashblock,
