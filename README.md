@@ -44,6 +44,10 @@ google/yandex search link fix, screengrab, superstop
 * redirector ([settings](figures/redirector))
 * url alias ([settings](figures/url_alias))
 
+### git
+* git config --global core.editor emacs
+* git config --global alias.st status
+
 ### awesome
 #### tips
 * see [page](http://awesome.naquadah.org/wiki/Awesome_3_configuration) on basic terminology
