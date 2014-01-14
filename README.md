@@ -4,8 +4,7 @@ post-configuration
 system
 ------
 
-useradd -m -g GROUP -s /bin/bash USER
-passwd USER
+* useradd -m -g GROUP -s /bin/bash USER; passwd USER
 
 packages
 --------
