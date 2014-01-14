@@ -25,6 +25,21 @@ UUID=3330-3138 /home/USER/media/gallaxy vfat rw,noatime,utf8=true 0 2
 ### /etc/sudoers
 EDITOR=emacs visudo
 
+### .bashrc
+* alias ls='ls --color=auto'
+* alias lla='ls -al'
+* alias wpa='sudo wpa\_supplicant -D driver -i interface_name 
+  -c wpa_supplicant.conf' ([config example](figures/wpa_supplicant.conf))
+* alias ema='emacs -nw'
+* alias gdb='gdb -quiet'
+* alias diff='diff -u'
+* alias cp='cp -v --preserve=all'
+* alias sus='sudo pm-suspend && amixer set Master 0%
+  && linux_logo -L classic-simp -p -o 6 && slock'
+* alias tt='konsole --workdir "${PWD}"'
+* export PATH=$PATH:~/bin:
+
+
 programs
 --------
 ### firefox
