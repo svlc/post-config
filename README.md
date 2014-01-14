@@ -64,6 +64,7 @@ google/yandex search link fix, screengrab, superstop
 * git config --global alias.st status
 * git config --global user.name ""
 * git config --global user.email ""
+* git config --global merge.tool ""
 
 ### awesome
 #### tips
