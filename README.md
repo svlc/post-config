@@ -44,7 +44,7 @@ google/yandex search link fix, screengrab, superstop
 
 ### awesome
 #### tips
-* tag is equivalent word to virtual desktop
+* see [page](http://awesome.naquadah.org/wiki/Awesome_3_configuration) on basic terminology
 * xorg-xev is used for recognizing a names of special keys (e.g. Fn keys)
 * "Mod1" is id for Alt key
 
