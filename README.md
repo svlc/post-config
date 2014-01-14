@@ -22,6 +22,9 @@ file-configuration
 UUID=E0B6-32CE /home/USER/media/king vfat rw,noatime,utf8=true 0 2<br/>
 UUID=3330-3138 /home/USER/media/gallaxy vfat rw,noatime,utf8=true 0 2
 
+### /etc/sudoers
+EDITOR=emacs visudo
+
 programs
 --------
 ### firefox
