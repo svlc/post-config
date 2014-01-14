@@ -29,7 +29,7 @@ EDITOR=emacs visudo
 * alias ls='ls --color=auto'
 * alias lla='ls -al'
 * alias wpa='sudo wpa\_supplicant -D driver -i interface_name 
-  -c wpa_supplicant.conf' ([config example](figures/wpa_supplicant.conf))
+  -c wpa\_supplicant.conf' ([config example](figures/wpa\_supplicant.conf))
 * alias ema='emacs -nw'
 * alias gdb='gdb -quiet'
 * alias diff='diff -u'
