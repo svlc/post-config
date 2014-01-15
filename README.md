@@ -11,7 +11,7 @@ packages
 * bash-completion emacs-nox emacs-lua-mode sudo pm-utils git openssh
 * wget gcc make gdb valgrind patch acpi markdown unzip unrar linux_logo slock
 * wpa_supplicant
-* firefox flashplugin kdebase-konqueror kwallet alsa-utils
+* firefox flashplugin kdebase-konqueror kwallet alsa-utils kwriteconfig
 * krusader kdebase-dolphin kdegraphics-gwenview evince kdebase-konsole
 * vlc mplayer gimp libreoffice
 * freerapid
@@ -38,7 +38,6 @@ EDITOR=emacs visudo
   && linux_logo -L classic-simp -p -o 6 && slock'
 * alias tt='konsole --workdir "${PWD}"'
 * export PATH=$PATH:~/bin:
-
 
 programs
 --------
