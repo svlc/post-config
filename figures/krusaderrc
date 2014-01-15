@@ -1,0 +1,73 @@
+[Archives]
+Test Before Unpack=false
+
+[Colors]
+Current Background=60,130,211
+CurrentPalette=Forty Colors
+Inactive Alternate Background=255,255,255
+Inactive Background=255,255,255
+
+[Custom Selection Mode]
+Insert Moves Down=false
+Left Preserves=false
+Left Selects=false
+QT Selection=true
+Right Preserves=false
+Right Selects=true
+ShiftCtrl Left Selects=true
+Space Calc Space=true
+Space Moves Down=true
+
+[General]
+Default Viewer Mode=generic
+Editor=konsole -e emacs -nw
+Mimetype Magic=false
+Move To Trash=true
+Terminal=konsole --workdir %d
+View In Separate Window=false
+Volume=1
+
+[KrInterDetailedView]
+AutoResizeColumns=true
+Descending Sort Order=0
+Filelist Icon Size=12
+IconSize=12
+Sort Column=0
+With Icons=true
+
+[Look&Feel]
+Always sort dirs by name=true
+Back Button Visible=false
+Case Sensitive Quicksearch=false
+Default Panel Type=0
+Equal Button Visible=true
+Filelist Font=Monospace,9,-1,5,50,0,0,0,0,0
+Filelist Icon Size=12
+FlatOriginBar=true
+Forward Button Visible=false
+Fullpath Tab Names=true
+Fullscreen Terminal Emulator=false
+Load User Defined Folder Icons=true
+Mark Dirs=true
+Mouse Selection=3
+Numeric permissions=true
+Panel Toolbar visible=true
+Rename Selects Extension=false
+Root Button Visible=false
+Show Free Space=true
+Show Hidden=true
+Show Size In Bytes=true
+Show Tab Buttons=false
+Show splashscreen=false
+Single Click Selects=0
+Sort method=2
+Tab Bar Position=top
+Up Button Visible=false
+Up/Down Cancels Quicksearch=false
+
+[Startup]
+Show Cmd Line=false
+Show FN Keys=false
+Show actions tool bar=false
+Show status bar=false
+Show tool bar=false

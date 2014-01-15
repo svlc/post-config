@@ -1,0 +1,16 @@
+...
+ <ActionProperties>
+  ...
+  <Action shortcut="F1" name="F2_Terminal"/>
+  <Action shortcut="F2" name="F9_Rename"/>
+  <Action shortcut="Ctrl+T" name="new tab"/>
+  <Action shortcut="Ctrl+Tab" name="next tab"/>
+  <Action shortcut="Ctrl+Shift+Tab" name="previous tab"/>
+  <Action shortcut="Ctrl+D" name="unselect all"/>
+  <Action shortcut="" name="F8_Delete"/>
+  <Action shortcut="" name="help_contents"/>
+  <Action shortcut="" name="split"/>
+  <Action shortcut="" name="bookmarks"/>
+  ...
+ </ActionProperties>
+...

@@ -62,6 +62,20 @@ google/yandex search link fix, screengrab, superstop
 * kwriteconfig --file konsolerc --group KonsoleWindow --key ShowMenuBarByDefault False
 * kwriteconfig --file konsolerc --group TabBar --key TabBarVisibility ShowTabBarWhenNeedde
 
+### krusader
+#### tips
+* it would be very tedious to configure a "krusaderrc" file using kwriteconfig
+* change in the size of icons becomes evident after opening a new tab
+* it is wise to edit configuration files only while krusader is not running
+* krusaderui.rc gets generated as soon as some shortcut is changed
+* see the [article](http://www.techrepublic.com/blog/linux-and-open-source/10-reasons-why-you-should-try-krusader/)
+describing some special features
+
+#### configuration files
+* [krusaderrc](figures/krusaderrc) -- can be copied as a whole
+* [krusaderui.rc snippet](figures/krusaderui.rc_snippet) -- must be added
+  to some existing (possibly default) krusaderui.rc file
+
 ### git
 * git config --global core.editor emacs
 * git config --global alias.st status
