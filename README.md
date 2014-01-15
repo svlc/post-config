@@ -58,6 +58,10 @@ google/yandex search link fix, screengrab, superstop
 * redirector ([settings](figures/redirector))
 * url alias ([settings](figures/url_alias))
 
+#### konsole
+* kwriteconfig --file konsolerc --group KonsoleWindow --key ShowMenuBarByDefault False
+* kwriteconfig --file konsolerc --group TabBar --key TabBarVisibility ShowTabBarWhenNeedde
+
 ### git
 * git config --global core.editor emacs
 * git config --global alias.st status
