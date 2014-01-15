@@ -58,7 +58,7 @@ google/yandex search link fix, screengrab, superstop
 * redirector ([settings](figures/redirector))
 * url alias ([settings](figures/url_alias))
 
-#### konsole
+### konsole
 * kwriteconfig --file konsolerc --group KonsoleWindow --key ShowMenuBarByDefault False
 * kwriteconfig --file konsolerc --group TabBar --key TabBarVisibility ShowTabBarWhenNeedde
 
