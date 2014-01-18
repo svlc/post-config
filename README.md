@@ -83,6 +83,9 @@ describing some special features
 * git config --global user.email ""
 * git config --global merge.tool ""
 
+### gdb
+* [.gdbinit](figures/.gdbinit)
+
 ### awesome
 #### tips
 * see [page](http://awesome.naquadah.org/wiki/Awesome_3_configuration) on basic terminology
