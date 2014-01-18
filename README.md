@@ -50,6 +50,7 @@ programs
 * keyword.enabled:false
 * browser.search.suggest.enabled:false
 * browser.backspace_action:0
+* full-screen-api.approval-required:false
 
 #### plugins
 * betterprivacy, facebook disconnect, firesizer, flashblock,
