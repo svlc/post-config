@@ -6,6 +6,7 @@ Current Background=60,130,211
 CurrentPalette=Forty Colors
 Inactive Alternate Background=255,255,255
 Inactive Background=255,255,255
+KDE Default=false
 
 [Custom Selection Mode]
 Insert Moves Down=false
