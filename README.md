@@ -12,7 +12,7 @@ packages
 * wget gcc make gdb valgrind patch acpi markdown unzip unrar linux_logo slock
 * wpa_supplicant
 * firefox flashplugin kdebase-konqueror kwallet alsa-utils kwriteconfig
-* krusader kdebase-dolphin kdegraphics-gwenview evince kdebase-konsole
+* krusader kdebase-dolphin kdegraphics-gwenview evince kdebase-konsole kdegraphics-ksnapshot
 * vlc mplayer gimp libreoffice
 * freerapid
 
