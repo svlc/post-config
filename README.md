@@ -89,7 +89,8 @@ describing some special features
 
 ### awesome
 #### tips
-* see [page](http://awesome.naquadah.org/wiki/Awesome_3_configuration) on basic terminology
+* see [page](http://awesome.naquadah.org/wiki/Awesome_3_configuration) on basic terminology and
+  [the documentation page](https://awesome.naquadah.org/doc/)
 * xorg-xev is used for recognizing a names of special keys (e.g. Fn keys)
 * "Mod1" is id for Alt key
 
