@@ -105,6 +105,7 @@ describing some special features
 * sound shortcuts ("Ctrl" + {"Prior", "Next"} to call  "amixer set Master 10%{+,-}")
 * terminal shortcut ("Ctrl" + "Mod1" + "t")
 * lock shorcut ("Ctrl" + "Mod1" + "l")
-* keyboard switching shortcut ("Ctrl" + "Mod1" + "k")
+* keyboard switching shortcut ("Ctrl" + "Mod1" + "k"), possibly with xmodmap command call
 * add wallpaper support
 * delete code for various mouse operations ({window, tab, layout} switching)
+* delete all layouts but the "max" one
