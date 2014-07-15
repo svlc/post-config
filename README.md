@@ -39,6 +39,12 @@ EDITOR=emacs visudo
 * alias tt='konsole --workdir "${PWD}"'
 * export PATH=$PATH:~/bin:
 
+### /etc/X11/xorg.conf.d/50-synaptics.conf
+* Option "EmulateTwoFingerMinZ" "40"
+* Option "EmulateTwoFingerMinW" "8"
+* Option "TapButton2" "3"
+* Option "HorizTwoFingerScroll" "1"
+
 programs
 --------
 ### firefox
