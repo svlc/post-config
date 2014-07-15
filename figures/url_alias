@@ -11,7 +11,7 @@ r  http://www.archlinux.org/packages/?q=%s
 r2 https://wiki.archlinux.org/index.php?title=Special%3ASearch&search=%s
 r3 packages.debian.org/search?searchon=all&suite=stable&section=all&keywords=%s
 p  http://meteocentrum.cz/predpoved-pocasi/predpoved-pocasi-praha-52.php
-m  http://mapy.cz/#st=s@z=7@ssq=%s
+m  http://mapy.cz/zakladni?z=6&q=%s
 b  http://meteocentrum.cz/predpoved-pocasi/cz/740/brno
 z  http://agata.suz.cvut.cz/jidelnicky/index.php?clPodsystem=5
 s  http://slovnik.cz
