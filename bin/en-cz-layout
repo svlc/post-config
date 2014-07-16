@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+# script for switching between us and cz keyboard layout
+
+if [ "$( setxkbmap -print | grep "pc+us" )" != "" ];
+	then setxkbmap cz;
+else
+	setxkbmap us;
+fi

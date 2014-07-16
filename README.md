@@ -116,3 +116,10 @@ describing some special features
 * add wallpaper support
 * delete code for various mouse operations ({window, tab, layout} switching)
 * delete all layouts but the "max" one
+
+scripts
+-------
+* [en-cz-layout](bin/en-cz-layout) -- switches between us and cz keyboard layout
+* [dotdot](bin/dotdot) [-f] FILE1 [FILE2 ...] -- substitutes whitespace for dots
+* [today](bin/today) FILE1 [FILE2 ...] -- adds current date at the end of file name(s)
+* [lang](bin/lang) LANG DEST -- creates initial environment for a specified programming language

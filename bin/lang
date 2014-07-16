@@ -1,0 +1,49 @@
+#! /bin/bash
+
+function usage() {
+    printf "Prepares initial directory for a specified language.\n";
+    printf "Usage: "$0" LANG DIR_DEST\n";
+    exit "$1";
+}
+
+if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+	usage 0;
+elif [ "$#" -ne "2" ]; then
+	usage 1;
+fi
+
+WANTED_LANG=$( echo "$1" | sed 's/\(.*\)/\L\1/' )
+
+case "$1" in
+	"c")	printf "C recognized.\n"
+		WANTED_LANG="c"
+		;;
+
+	"c++")	printf "C++ recognized.\n"
+		WANTED_LANG="cpp"
+		;;
+
+	"rb")	printf "ruby recognized.\n"
+		WANTED_LANG="ruby"
+		;;
+
+	"py")	printf "python recognized.\n"
+		WANTED_LANG="python"
+		;;
+	"pl")
+		WANTED_LANG="perl"
+		;;
+	*)
+		printf "No language recognized.\n"
+		usage 1
+esac
+
+# if wanted file does not exist
+if [ ! -e "$2" ]; then
+	cp -r ~/bin/lang-${WANTED_LANG}-template "$2";
+else
+	printf "File "$2" already exists.\n"
+	exit 1;
+fi
+
+exit 0;

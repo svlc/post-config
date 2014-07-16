@@ -1,0 +1,55 @@
+#! /usr/bin/python
+
+import sys, os
+
+def usage():
+	print("Usage: dotdot [-f] file1 [file2 ...]")
+	print("-f/--force turns off interactivity")
+
+def get_confirmation():
+
+	print("Proceed with operation? [y/n] ", end='')
+	ret = input()
+	if ret != 'y':
+		raise Exception('Did not read "y". Skipping the file.')
+
+def check_file_type(file):
+
+	if not os.path.exists(file):
+		raise Exception('File "' + file + '" does not exist.')
+	if os.path.isfile(file) and os.path.isdir(file):
+		raise Exception('File ' + file + '" is not a regular file/directory.')
+
+def main():
+
+	if len(sys.argv) == 1:
+		usage()
+		return 1
+
+	force_opt_passed = False
+	if sys.argv[1] == "-f" or sys.argv[1] == "--force":
+		force_opt_passed = True
+		sys.argv.pop(1)
+	ret = 0
+
+	for name in sys.argv[1:]:
+		try:
+			check_file_type(name)
+
+			refined_name = name.replace(' ', '.')
+			print('"', name, '":::"', refined_name, '"', sep='')
+			if name == refined_name:
+				print('No difference between the file names. Skipping the file.')
+				continue
+			elif not force_opt_passed:
+				get_confirmation()
+			os.rename(name, refined_name)
+		except Exception as msg:
+			print(msg)
+			ret = 2
+	return ret
+
+ret = main()
+sys.exit(ret)
+
+
