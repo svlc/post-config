@@ -123,3 +123,4 @@ scripts
 * [dotdot](bin/dotdot) [-f] FILE1 [FILE2 ...] -- substitutes whitespace for dots
 * [today](bin/today) FILE1 [FILE2 ...] -- adds current date at the end of file name(s)
 * [lang](bin/lang) LANG DEST -- creates initial environment for a specified programming language
+* [win2utf](bin/win2utf) FILE1 [FILE2 ...] -- transforms file(s) with non-standard win-1250 to UTF8
